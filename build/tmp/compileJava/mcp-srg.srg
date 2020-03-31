@@ -1,0 +1,5 @@
+FD: io/github/moulberry/mixins/MixinEntity/posX io/github/moulberry/mixins/MixinEntity/field_70165_t
+FD: io/github/moulberry/mixins/MixinEntity/posY io/github/moulberry/mixins/MixinEntity/field_70163_u
+FD: io/github/moulberry/mixins/MixinEntity/posZ io/github/moulberry/mixins/MixinEntity/field_70161_v
+FD: io/github/moulberry/mixins/MixinEntity/worldObj io/github/moulberry/mixins/MixinEntity/field_70170_p
+FD: io/github/moulberry/mixins/MixinEntity/ticksExisted io/github/moulberry/mixins/MixinEntity/field_70173_aa

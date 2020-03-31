@@ -1,0 +1,377 @@
+Symbol range map extraction starting
+Processing 5 files
+processing io\github\moulberry\SBCustomMobTex.java
+@|io\github\moulberry\SBCustomMobTex.java|8|27|io.github.moulberry|package|io.github.moulberry|(file)
+Class Start: io.github.moulberry.SBCustomMobTex
+   @|io\github\moulberry\SBCustomMobTex.java|1387|1393|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|1394|1399|MODID|field|io.github.moulberry.SBCustomMobTex|MODID|
+   @|io\github\moulberry\SBCustomMobTex.java|1444|1450|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|1451|1458|VERSION|field|io.github.moulberry.SBCustomMobTex|VERSION|
+   @|io\github\moulberry\SBCustomMobTex.java|1487|1501|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+   @|io\github\moulberry\SBCustomMobTex.java|1502|1510|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE|
+   @|io\github\moulberry\SBCustomMobTex.java|1532|1548|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+   @|io\github\moulberry\SBCustomMobTex.java|1555|1561|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|1563|1570|Integer|class|java.lang.Integer
+   @|io\github\moulberry\SBCustomMobTex.java|1550|1554|Pair|class|org.apache.commons.lang3.tuple.Pair
+   @|io\github\moulberry\SBCustomMobTex.java|1524|1531|HashMap|class|java.util.HashMap
+   @|io\github\moulberry\SBCustomMobTex.java|1573|1580|permMap|field|io.github.moulberry.SBCustomMobTex|permMap|
+   @|io\github\moulberry\SBCustomMobTex.java|1587|1594|HashMap|class|java.util.HashMap
+   @|io\github\moulberry\SBCustomMobTex.java|1620|1632|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock|
+   @|io\github\moulberry\SBCustomMobTex.java|1740|1746|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|1736|1739|Set|class|java.util.Set
+   @|io\github\moulberry\SBCustomMobTex.java|1748|1773|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES|
+   @|io\github\moulberry\SBCustomMobTex.java|1776|1780|Sets|class|com.google.common.collect.Sets
+   @|io\github\moulberry\SBCustomMobTex.java|1781|1791|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
+   Method Start: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|1867|1874|preinit|method|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|1875|1900|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|io\github\moulberry\SBCustomMobTex.java|1901|1906|event|param|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|io\github\moulberry\SBCustomMobTex.java|1918|1932|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|io\github\moulberry\SBCustomMobTex.java|1933|1942|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|io\github\moulberry\SBCustomMobTex.java|1943|1951|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|io\github\moulberry\SBCustomMobTex.java|1967|1975|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+   Method End: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: tick(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|2027|2031|tick|method|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|2032|2041|TickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent
+      @|io\github\moulberry\SBCustomMobTex.java|2042|2047|event|param|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V|event|0
+      @|io\github\moulberry\SBCustomMobTex.java|2059|2065|System|class|java.lang.System
+      @|io\github\moulberry\SBCustomMobTex.java|2066|2069|out|field|java.lang.System|out
+      @|io\github\moulberry\SBCustomMobTex.java|2070|2077|println|method|java.io.PrintStream|println|(I)V
+      @|io\github\moulberry\SBCustomMobTex.java|2078|2085|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2086|2090|size|method|java.util.Map|size|()I
+      @|io\github\moulberry\SBCustomMobTex.java|2103|2121|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
+      @|io\github\moulberry\SBCustomMobTex.java|2133|2141|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
+   Method End: tick(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+   Method Start: cleanMap()V
+      @|io\github\moulberry\SBCustomMobTex.java|2168|2176|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
+      @|io\github\moulberry\SBCustomMobTex.java|2189|2194|World|class|net.minecraft.world.World
+      @|io\github\moulberry\SBCustomMobTex.java|2199|2208|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|2209|2221|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|2224|2232|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|2270|2273|Set|class|java.util.Set
+      @|io\github\moulberry\SBCustomMobTex.java|2274|2290|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|2307|2314|HashSet|class|java.util.HashSet
+      @|io\github\moulberry\SBCustomMobTex.java|2336|2352|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|2359|2366|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2367|2373|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|io\github\moulberry\SBCustomMobTex.java|2401|2417|loadedEntityList|field|net.minecraft.world.World|loadedEntityList
+      @|io\github\moulberry\SBCustomMobTex.java|2418|2426|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|2464|2467|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|2522|2538|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|2573|2580|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2581|2587|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+   Method End: cleanMap()V
+   Method Start: getPermPair(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\SBCustomMobTex.java|2658|2669|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\SBCustomMobTex.java|2641|2647|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|2649|2656|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|2636|2640|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|2670|2686|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|2687|2690|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|2702|2706|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|2707|2713|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|2715|2722|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|2731|2738|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2739|2742|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|2743|2746|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|2799|2810|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
+      @|io\github\moulberry\SBCustomMobTex.java|2835|2842|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2843|2846|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|2847|2850|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+   Method End: getPermPair(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+   Method Start: setPermPair(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+      @|io\github\moulberry\SBCustomMobTex.java|2913|2924|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+      @|io\github\moulberry\SBCustomMobTex.java|2925|2941|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|2942|2945|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|2952|2958|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|2960|2967|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|2947|2951|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|2969|2973|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
+      @|io\github\moulberry\SBCustomMobTex.java|2985|2992|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|2993|2996|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|2997|3000|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|3002|3006|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
+   Method End: setPermPair(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+   Method Start: isOnSkyblock()Z
+      @|io\github\moulberry\SBCustomMobTex.java|3035|3047|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|3067|3079|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+   Method End: isOnSkyblock()Z
+   Method Start: updateIsOnSkyblock()V
+      @|io\github\moulberry\SBCustomMobTex.java|3147|3165|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
+      @|io\github\moulberry\SBCustomMobTex.java|3178|3187|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|3193|3202|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|3203|3215|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|3249|3257|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|3281|3291|Scoreboard|class|net.minecraft.scoreboard.Scoreboard
+      @|io\github\moulberry\SBCustomMobTex.java|3308|3316|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|3317|3330|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
+      @|io\github\moulberry\SBCustomMobTex.java|3346|3360|ScoreObjective|class|net.minecraft.scoreboard.ScoreObjective
+      @|io\github\moulberry\SBCustomMobTex.java|3391|3416|getObjectiveInDisplaySlot|method|net.minecraft.scoreboard.Scoreboard|getObjectiveInDisplaySlot|(I)Lnet/minecraft/scoreboard/ScoreObjective;
+      @|io\github\moulberry\SBCustomMobTex.java|3481|3487|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|3521|3535|getDisplayName|method|net.minecraft.scoreboard.ScoreObjective|getDisplayName|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|3538|3548|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|3591|3597|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|3609|3634|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES
+      @|io\github\moulberry\SBCustomMobTex.java|3676|3686|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|3724|3736|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+      @|io\github\moulberry\SBCustomMobTex.java|3850|3862|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+   Method End: updateIsOnSkyblock()V
+Class End  : io.github.moulberry.SBCustomMobTex
+endProcessing io\github\moulberry\SBCustomMobTex.java
+
+processing io\github\moulberry\mixins\MixinEntity.java
+@|io\github\moulberry\mixins\MixinEntity.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
+Class Start: io.github.moulberry.mixins.MixinEntity
+   @|io\github\moulberry\mixins\MixinEntity.java|867|871|posX|field|io.github.moulberry.mixins.MixinEntity|posX|
+   @|io\github\moulberry\mixins\MixinEntity.java|903|907|posY|field|io.github.moulberry.mixins.MixinEntity|posY|
+   @|io\github\moulberry\mixins\MixinEntity.java|939|943|posZ|field|io.github.moulberry.mixins.MixinEntity|posZ|
+   @|io\github\moulberry\mixins\MixinEntity.java|969|974|World|class|net.minecraft.world.World
+   @|io\github\moulberry\mixins\MixinEntity.java|975|983|worldObj|field|io.github.moulberry.mixins.MixinEntity|worldObj|
+   @|io\github\moulberry\mixins\MixinEntity.java|1012|1024|ticksExisted|field|io.github.moulberry.mixins.MixinEntity|ticksExisted|
+   Method Start: shouldReplace()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|1047|1060|shouldReplace|method|io.github.moulberry.mixins.MixinEntity|shouldReplace|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|1108|1122|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|1123|1131|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|1132|1144|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|1173|1180|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|1194|1210|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntity.java|1216|1223|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|1237|1253|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntity.java|1274|1281|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|1287|1296|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\mixins\MixinEntity.java|1297|1309|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\mixins\MixinEntity.java|1312|1321|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+   Method End: shouldReplace()Z
+   Method Start: getThis()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|1408|1415|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|1401|1407|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\mixins\MixinEntity.java|1437|1443|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\mixins\MixinEntity.java|1445|1451|Object|class|java.lang.Object
+   Method End: getThis()Lnet/minecraft/entity/Entity;
+   Method Start: distSq(DDDDDD)D
+      @|io\github\moulberry\mixins\MixinEntity.java|1485|1491|distSq|method|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D
+      @|io\github\moulberry\mixins\MixinEntity.java|1499|1501|x1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x1|0
+      @|io\github\moulberry\mixins\MixinEntity.java|1510|1512|y1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y1|1
+      @|io\github\moulberry\mixins\MixinEntity.java|1521|1523|z1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z1|2
+      @|io\github\moulberry\mixins\MixinEntity.java|1532|1534|x2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x2|3
+      @|io\github\moulberry\mixins\MixinEntity.java|1543|1545|y2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y2|4
+      @|io\github\moulberry\mixins\MixinEntity.java|1554|1556|z2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z2|5
+      @|io\github\moulberry\mixins\MixinEntity.java|1576|1578|x1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x1|0
+      @|io\github\moulberry\mixins\MixinEntity.java|1579|1581|x2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x2|3
+      @|io\github\moulberry\mixins\MixinEntity.java|1584|1586|x1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x1|0
+      @|io\github\moulberry\mixins\MixinEntity.java|1587|1589|x2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|x2|3
+      @|io\github\moulberry\mixins\MixinEntity.java|1594|1596|y1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y1|1
+      @|io\github\moulberry\mixins\MixinEntity.java|1597|1599|y2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y2|4
+      @|io\github\moulberry\mixins\MixinEntity.java|1602|1604|y1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y1|1
+      @|io\github\moulberry\mixins\MixinEntity.java|1605|1607|y2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|y2|4
+      @|io\github\moulberry\mixins\MixinEntity.java|1612|1614|z1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z1|2
+      @|io\github\moulberry\mixins\MixinEntity.java|1615|1617|z2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z2|5
+      @|io\github\moulberry\mixins\MixinEntity.java|1620|1622|z1|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z1|2
+      @|io\github\moulberry\mixins\MixinEntity.java|1623|1625|z2|param|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D|z2|5
+   Method End: distSq(DDDDDD)D
+   Method Start: getCustomNameTag(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|1731|1747|getCustomNameTag|method|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|1748|1770|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntity.java|1771|1774|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|1850|1863|shouldReplace|method|io.github.moulberry.mixins.MixinEntity|shouldReplace|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|1881|1887|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntity.java|1914|1918|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\mixins\MixinEntity.java|1919|1925|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntity.java|1927|1934|Integer|class|java.lang.Integer
+      @|io\github\moulberry\mixins\MixinEntity.java|1943|1957|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|1958|1966|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|1967|1978|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\mixins\MixinEntity.java|1980|1996|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntity.java|1998|2005|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|2031|2038|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|2057|2065|getRight|method|org.apache.commons.lang3.tuple.Pair|getRight|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|2113|2120|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|2265|2281|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntity.java|2318|2324|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\mixins\MixinEntity.java|2334|2342|worldObj|field|io.github.moulberry.mixins.MixinEntity|worldObj
+      @|io\github\moulberry\mixins\MixinEntity.java|2343|2359|loadedEntityList|field|net.minecraft.world.World|loadedEntityList
+      @|io\github\moulberry\mixins\MixinEntity.java|2404|2420|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntity.java|2448|2464|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntity.java|2474|2490|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntity.java|2537|2541|Math|class|java.lang.Math
+      @|io\github\moulberry\mixins\MixinEntity.java|2542|2545|abs|method|java.lang.Math|abs|(I)I
+      @|io\github\moulberry\mixins\MixinEntity.java|2552|2564|ticksExisted|field|net.minecraft.entity.Entity|ticksExisted
+      @|io\github\moulberry\mixins\MixinEntity.java|2567|2579|ticksExisted|field|io.github.moulberry.mixins.MixinEntity|ticksExisted
+      @|io\github\moulberry\mixins\MixinEntity.java|2647|2658|isInvisible|method|net.minecraft.entity.Entity|isInvisible|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2670|2683|func_181026_s|method|net.minecraft.entity.item.EntityArmorStand|func_181026_s|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2696|2709|hasCustomName|method|net.minecraft.entity.Entity|hasCustomName|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2759|2765|distSq|method|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D
+      @|io\github\moulberry\mixins\MixinEntity.java|2766|2770|posX|field|io.github.moulberry.mixins.MixinEntity|posX
+      @|io\github\moulberry\mixins\MixinEntity.java|2772|2776|posY|field|io.github.moulberry.mixins.MixinEntity|posY
+      @|io\github\moulberry\mixins\MixinEntity.java|2778|2782|posZ|field|io.github.moulberry.mixins.MixinEntity|posZ
+      @|io\github\moulberry\mixins\MixinEntity.java|2790|2794|posX|field|net.minecraft.entity.Entity|posX
+      @|io\github\moulberry\mixins\MixinEntity.java|2802|2806|posY|field|net.minecraft.entity.Entity|posY
+      @|io\github\moulberry\mixins\MixinEntity.java|2814|2818|posZ|field|net.minecraft.entity.Entity|posZ
+      @|io\github\moulberry\mixins\MixinEntity.java|3818|3825|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|3839|3846|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|3884|3892|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|3943|3951|setValue|method|java.util.Map.Entry|setValue|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|3957|3965|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4062|4073|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
+      @|io\github\moulberry\mixins\MixinEntity.java|4084|4091|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4123|4137|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|4138|4146|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|4147|4158|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4160|4176|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntity.java|4178|4185|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|4255|4262|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4347|4353|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntity.java|4367|4377|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4418|4421|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4422|4436|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4470|4473|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4474|4488|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4547|4550|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4551|4565|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4566|4569|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4570|4584|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+   Method End: getCustomNameTag(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+   Method Start: hasCustomName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4743|4756|hasCustomName|method|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4757|4779|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntity.java|4780|4783|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4798|4811|shouldReplace|method|io.github.moulberry.mixins.MixinEntity|shouldReplace|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|4829|4832|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4833|4847|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+   Method End: hasCustomName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+Class End  : io.github.moulberry.mixins.MixinEntity
+endProcessing io\github\moulberry\mixins\MixinEntity.java
+
+processing io\github\moulberry\mixins\MixinEntityLiving.java
+@|io\github\moulberry\mixins\MixinEntityLiving.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
+Class Start: io.github.moulberry.mixins.MixinEntityLiving
+   Method Start: shouldReplace()Z
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|679|692|shouldReplace|method|io.github.moulberry.mixins.MixinEntityLiving|shouldReplace|()Z
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|740|754|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|755|763|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|764|776|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|805|812|getThis|method|io.github.moulberry.mixins.MixinEntityLiving|getThis|()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|826|842|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|848|855|getThis|method|io.github.moulberry.mixins.MixinEntityLiving|getThis|()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|869|885|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|906|913|getThis|method|io.github.moulberry.mixins.MixinEntityLiving|getThis|()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|919|928|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|929|941|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|944|953|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+   Method End: shouldReplace()Z
+   Method Start: getThis()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1050|1057|getThis|method|io.github.moulberry.mixins.MixinEntityLiving|getThis|()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1033|1049|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1079|1095|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1097|1103|Object|class|java.lang.Object
+   Method End: getThis()Lnet/minecraft/entity/EntityLivingBase;
+   Method Start: processEquipmentSlot(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1135|1155|processEquipmentSlot|method|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1156|1178|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1179|1182|cir|param|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1197|1210|shouldReplace|method|io.github.moulberry.mixins.MixinEntityLiving|shouldReplace|()Z
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1231|1234|cir|param|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1235|1249|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1279|1288|ItemStack|class|net.minecraft.item.ItemStack
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1295|1304|ItemStack|class|net.minecraft.item.ItemStack
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1306|1309|cir|param|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1310|1324|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1328|1332|copy|method|net.minecraft.item.ItemStack|copy|()Lnet/minecraft/item/ItemStack;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1352|1358|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1371|1385|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1443|1450|isEmpty|method|java.lang.String|isEmpty|()Z
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1476|1480|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1481|1487|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1489|1496|Integer|class|java.lang.Integer
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1505|1519|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1520|1528|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1529|1540|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1541|1548|getThis|method|io.github.moulberry.mixins.MixinEntityLiving|getThis|()Lnet/minecraft/entity/EntityLivingBase;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1581|1588|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1626|1632|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1645|1652|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1655|1665|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1713|1732|setStackDisplayName|method|net.minecraft.item.ItemStack|setStackDisplayName|(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1764|1767|cir|param|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1768|1782|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+   Method End: processEquipmentSlot(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+   Method Start: getHeldItem(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1950|1961|getHeldItem|method|io.github.moulberry.mixins.MixinEntityLiving|getHeldItem|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1962|1984|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|1985|1988|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getHeldItem|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2000|2020|processEquipmentSlot|method|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2021|2024|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getHeldItem|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+   Method End: getHeldItem(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+   Method Start: getEquipmentInSlot(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2184|2202|getEquipmentInSlot|method|io.github.moulberry.mixins.MixinEntityLiving|getEquipmentInSlot|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2207|2213|slotIn|param|io.github.moulberry.mixins.MixinEntityLiving|getEquipmentInSlot|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|slotIn|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2215|2237|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2238|2241|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getEquipmentInSlot|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|1
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2253|2273|processEquipmentSlot|method|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2274|2277|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getEquipmentInSlot|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|1
+   Method End: getEquipmentInSlot(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+   Method Start: getCurrentArmor(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2383|2398|getCurrentArmor|method|io.github.moulberry.mixins.MixinEntityLiving|getCurrentArmor|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2403|2409|slotIn|param|io.github.moulberry.mixins.MixinEntityLiving|getCurrentArmor|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|slotIn|0
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2411|2433|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2434|2437|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getCurrentArmor|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|1
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2449|2469|processEquipmentSlot|method|io.github.moulberry.mixins.MixinEntityLiving|processEquipmentSlot|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntityLiving.java|2470|2473|cir|param|io.github.moulberry.mixins.MixinEntityLiving|getCurrentArmor|(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|1
+   Method End: getCurrentArmor(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+Class End  : io.github.moulberry.mixins.MixinEntityLiving
+endProcessing io\github\moulberry\mixins\MixinEntityLiving.java
+
+processing io\github\moulberry\mixins\MixinRandomEntities.java
+@|io\github\moulberry\mixins\MixinRandomEntities.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
+Class Start: io.github.moulberry.mixins.MixinRandomEntities
+   Method Start: getHorseTexturePath(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|484|503|getHorseTexturePath|method|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|504|510|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|511|515|path|param|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|path|0
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|521|524|pos|param|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|pos|1
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|526|548|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|549|552|cir|param|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|2
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|567|570|cir|param|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|2
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|571|585|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|611|614|cir|param|io.github.moulberry.mixins.MixinRandomEntities|getHorseTexturePath|(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|2
+      @|io\github\moulberry\mixins\MixinRandomEntities.java|615|629|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+   Method End: getHorseTexturePath(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+Class End  : io.github.moulberry.mixins.MixinRandomEntities
+endProcessing io\github\moulberry\mixins\MixinRandomEntities.java
+
+processing io\github\moulberry\mixins\MixinRender.java
+@|io\github\moulberry\mixins\MixinRender.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
+Class Start: io.github.moulberry.mixins.MixinRender
+   Method Start: renderLivingLabel(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+      @|io\github\moulberry\mixins\MixinRender.java|792|809|renderLivingLabel|method|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+      @|io\github\moulberry\mixins\MixinRender.java|810|816|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\mixins\MixinRender.java|817|825|entityIn|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|entityIn|0
+      @|io\github\moulberry\mixins\MixinRender.java|827|833|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinRender.java|834|837|str|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|str|1
+      @|io\github\moulberry\mixins\MixinRender.java|846|847|x|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|x|2
+      @|io\github\moulberry\mixins\MixinRender.java|856|857|y|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|y|3
+      @|io\github\moulberry\mixins\MixinRender.java|866|867|z|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|z|4
+      @|io\github\moulberry\mixins\MixinRender.java|873|884|maxDistance|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|maxDistance|5
+      @|io\github\moulberry\mixins\MixinRender.java|886|898|CallbackInfo|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfo
+      @|io\github\moulberry\mixins\MixinRender.java|899|901|ci|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|ci|6
+      @|io\github\moulberry\mixins\MixinRender.java|916|930|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinRender.java|931|939|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinRender.java|940|952|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\mixins\MixinRender.java|973|981|entityIn|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|entityIn|0
+      @|io\github\moulberry\mixins\MixinRender.java|993|1009|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinRender.java|1029|1033|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\mixins\MixinRender.java|1034|1040|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinRender.java|1042|1049|Integer|class|java.lang.Integer
+      @|io\github\moulberry\mixins\MixinRender.java|1058|1072|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinRender.java|1073|1081|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinRender.java|1082|1093|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\mixins\MixinRender.java|1095|1111|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinRender.java|1113|1121|entityIn|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|entityIn|0
+      @|io\github\moulberry\mixins\MixinRender.java|1148|1155|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinRender.java|1189|1191|ci|param|io.github.moulberry.mixins.MixinRender|renderLivingLabel|(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|ci|6
+      @|io\github\moulberry\mixins\MixinRender.java|1192|1198|cancel|method|org.spongepowered.asm.mixin.injection.callback.Cancellable|cancel|()V
+   Method End: renderLivingLabel(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+Class End  : io.github.moulberry.mixins.MixinRender
+endProcessing io\github\moulberry\mixins\MixinRender.java
+

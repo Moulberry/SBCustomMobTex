@@ -1,0 +1,7 @@
+Symbol range map extraction starting
+Processing 5 files
+processing io\github\moulberry\SBCustomMobTex.java
+processing io\github\moulberry\mixins\MixinEntity.java
+processing io\github\moulberry\mixins\MixinEntityLiving.java
+processing io\github\moulberry\mixins\MixinRandomEntities.java
+processing io\github\moulberry\mixins\MixinRender.java

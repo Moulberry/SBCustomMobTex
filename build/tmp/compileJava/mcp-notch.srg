@@ -1,0 +1,5 @@
+FD: io/github/moulberry/mixins/MixinEntity/posX io/github/moulberry/mixins/MixinEntity/s
+FD: io/github/moulberry/mixins/MixinEntity/posY io/github/moulberry/mixins/MixinEntity/t
+FD: io/github/moulberry/mixins/MixinEntity/posZ io/github/moulberry/mixins/MixinEntity/u
+FD: io/github/moulberry/mixins/MixinEntity/worldObj io/github/moulberry/mixins/MixinEntity/o
+FD: io/github/moulberry/mixins/MixinEntity/ticksExisted io/github/moulberry/mixins/MixinEntity/W

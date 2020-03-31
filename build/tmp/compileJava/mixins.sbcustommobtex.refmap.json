@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "io/github/moulberry/mixins/MixinEntity": {
+      "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
+      "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
+    },
+    "io/github/moulberry/mixins/MixinRender": {
+      "renderLivingLabel": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
+    },
+    "io/github/moulberry/mixins/MixinEntityLiving": {
+      "getCurrentArmor": "Lnet/minecraft/entity/EntityLiving;func_82169_q(I)Lnet/minecraft/item/ItemStack;",
+      "getHeldItem": "Lnet/minecraft/entity/EntityLiving;func_70694_bm()Lnet/minecraft/item/ItemStack;",
+      "getEquipmentInSlot": "Lnet/minecraft/entity/EntityLiving;func_71124_b(I)Lnet/minecraft/item/ItemStack;"
+    }
+  },
+  "data": {
+    "notch": {
+      "io/github/moulberry/mixins/MixinEntity": {
+        "hasCustomName": "Lpk;l_()Z",
+        "getCustomNameTag": "Lpk;aM()Ljava/lang/String;"
+      },
+      "io/github/moulberry/mixins/MixinRender": {
+        "renderLivingLabel": "Lbiv;a(Lpk;Ljava/lang/String;DDDI)V"
+      },
+      "io/github/moulberry/mixins/MixinEntityLiving": {
+        "getCurrentArmor": "Lps;q(I)Lzx;",
+        "getHeldItem": "Lps;bA()Lzx;",
+        "getEquipmentInSlot": "Lps;p(I)Lzx;"
+      }
+    },
+    "searge": {
+      "io/github/moulberry/mixins/MixinEntity": {
+        "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
+        "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
+      },
+      "io/github/moulberry/mixins/MixinRender": {
+        "renderLivingLabel": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
+      },
+      "io/github/moulberry/mixins/MixinEntityLiving": {
+        "getCurrentArmor": "Lnet/minecraft/entity/EntityLiving;func_82169_q(I)Lnet/minecraft/item/ItemStack;",
+        "getHeldItem": "Lnet/minecraft/entity/EntityLiving;func_70694_bm()Lnet/minecraft/item/ItemStack;",
+        "getEquipmentInSlot": "Lnet/minecraft/entity/EntityLiving;func_71124_b(I)Lnet/minecraft/item/ItemStack;"
+      }
+    }
+  }
+}
