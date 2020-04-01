@@ -7,6 +7,8 @@ import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityArmorStand;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.commons.lang3.tuple.Pair;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -16,22 +18,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(EntityLiving.class)
 public class MixinEntityLiving {
 
-    private boolean shouldReplace() {
-        //TODO: Skyblock check
-        if(!SBCustomMobTex.INSTANCE.isOnSkyblock()) return false;
-        if(getThis() instanceof EntityLivingBase && !(getThis() instanceof EntityArmorStand)
-                && getThis() != Minecraft.getMinecraft().thePlayer) {
-            return true;
-        }
-        return false;
-    }
-
     private EntityLivingBase getThis() {
         return ((EntityLivingBase)(Object)this);
     }
 
     private void processEquipmentSlot(CallbackInfoReturnable cir) {
-        if(shouldReplace()) {
+        if(SBCustomMobTex.INSTANCE.shouldReplace(getThis())) {
             if(cir.getReturnValue() != null) {
                 ItemStack r = ((ItemStack) cir.getReturnValue()).copy();
                 String display = r.getDisplayName();

@@ -1,5 +1,6 @@
 Symbol range map extraction starting
-Processing 5 files
+Processing 6 files
+processing io\github\moulberry\SBCreatureDebugCommand.java
 processing io\github\moulberry\SBCustomMobTex.java
 processing io\github\moulberry\mixins\MixinEntity.java
 processing io\github\moulberry\mixins\MixinEntityLiving.java

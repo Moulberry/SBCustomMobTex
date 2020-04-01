@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228be30d-cb58-49b5-ab39-ff7d5545e2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinEntityLiving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinRandomEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/SBCreatureDebugCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,11 +11,59 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/SBCustomMobTex.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/SBCustomMobTex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/mixins/MixinEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/mixins/MixinEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/mixins/MixinEntityLiving.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/moulberry/mixins/MixinEntityLiving.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/SBCustomMobTex-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SBCustomMobTex-1.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/SBCustomMobTex-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SBCustomMobTex-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/mixins.sbcustommobtex.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mixins.sbcustommobtex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/SBCustomMobTex.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/SBCustomMobTex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/mixins/MixinEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/mixins/MixinEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/mixins/MixinEntityLiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/moulberry/mixins/MixinEntityLiving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileJava-refmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileJava-refmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/mixins.sbcustommobtex.refmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/mixins.sbcustommobtex.refmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/input4127314398808144903.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/input5891619015947509924.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/input8499600018525113777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/input9098137955351524379.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/obfuscated2978849588075016838.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/obfuscated4002042123953509055.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/obfuscated6864886365645072109.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/obfuscated8522643384256654582.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/preTransformed1823681094799375163.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/preTransformed378644489454394739.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/preTransformed4414678950787611203.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/preTransformed8670081446915308897.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default4235315898633400571.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default4290392690872845737.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default5556266201027079375.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines2158703378099730957.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines6698197757597200578.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines7180061561519874951.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines7350351365898781655.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/input1243340028808637845.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/input3282699874180052207.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/input3646173438583419014.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/obfuscated2217396706954828543.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/obfuscated369831649751279513.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/obfuscated7882653356269317239.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/obfuscated8585915328135303000.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-default2814857269126906574.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-default4104820080309456314.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-default4177078995811503861.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-extraLines138498648878075444.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-extraLines3775205024938851474.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-extraLines8910616797486123223.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-extraLines976366860103528323.srg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/moulberry/SBCustomMobTex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/SBCustomMobTex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mixins.sbcustommobtex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mixins.sbcustommobtex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinEntityLiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/moulberry/mixins/MixinEntityLiving.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,17 +133,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585703516146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585703516146" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1585606788455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585606788455" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585609972170">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585634004360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585609972170" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585625912225">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585634004360" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585703732329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585625912225" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585703732329" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585707161046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585707161046" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 {
   "mappings": {
     "io/github/moulberry/mixins/MixinEntity": {
+      "getAlwaysRenderNameTag": "Lnet/minecraft/entity/Entity;func_174833_aM()Z",
       "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
       "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
     },
@@ -16,6 +17,7 @@
   "data": {
     "notch": {
       "io/github/moulberry/mixins/MixinEntity": {
+        "getAlwaysRenderNameTag": "Lpk;aN()Z",
         "hasCustomName": "Lpk;l_()Z",
         "getCustomNameTag": "Lpk;aM()Ljava/lang/String;"
       },
@@ -30,6 +32,7 @@
     },
     "searge": {
       "io/github/moulberry/mixins/MixinEntity": {
+        "getAlwaysRenderNameTag": "Lnet/minecraft/entity/Entity;func_174833_aM()Z",
         "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
         "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
       },

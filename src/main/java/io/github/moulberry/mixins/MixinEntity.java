@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityArmorStand;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.apache.commons.lang3.tuple.MutablePair;
@@ -33,16 +34,6 @@ public abstract class MixinEntity {
     @Shadow
     public int ticksExisted;
 
-    private boolean shouldReplace() {
-        //TODO: Skyblock check
-        if(!SBCustomMobTex.INSTANCE.isOnSkyblock()) return false;
-        if(getThis() instanceof EntityLivingBase && !(getThis() instanceof EntityArmorStand)
-                && getThis() != Minecraft.getMinecraft().thePlayer) {
-            return true;
-        }
-        return false;
-    }
-
     private Entity getThis() {
         return ((Entity)(Object)this);
     }
@@ -56,7 +47,7 @@ public abstract class MixinEntity {
     public void getCustomNameTag(CallbackInfoReturnable cir) {
         int bindTicks = 60;
         int deltaThreshold = 10;
-        if(shouldReplace()) {
+        if(SBCustomMobTex.INSTANCE.shouldReplace(getThis())) {
             String bound = null;
             Pair<String, Integer> pair = SBCustomMobTex.INSTANCE.getPermPair((EntityLivingBase) getThis());
 
@@ -125,7 +116,14 @@ public abstract class MixinEntity {
 
     @Inject(method = "hasCustomName", at = @At("HEAD"), cancellable = true)
     public void hasCustomName(CallbackInfoReturnable cir) {
-        if(shouldReplace()) {
+        if(SBCustomMobTex.INSTANCE.shouldReplace(getThis())) {
+            cir.setReturnValue(true);
+        }
+    }
+
+    @Inject(method = "getAlwaysRenderNameTag", at = @At("HEAD"), cancellable = true)
+    public void getAlwaysRenderNameTag(CallbackInfoReturnable cir) {
+        if(SBCustomMobTex.INSTANCE.shouldReplace(getThis()) && SBCustomMobTex.INSTANCE.isDebugEnabled()) {
             cir.setReturnValue(true);
         }
     }
