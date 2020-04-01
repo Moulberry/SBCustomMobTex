@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 6 files
+Processing 7 files
 processing io\github\moulberry\SBCreatureDebugCommand.java
 @|io\github\moulberry\SBCreatureDebugCommand.java|8|27|io.github.moulberry|package|io.github.moulberry|(file)
 Class Start: io.github.moulberry.SBCreatureDebugCommand
@@ -33,183 +33,245 @@ endProcessing io\github\moulberry\SBCreatureDebugCommand.java
 processing io\github\moulberry\SBCustomMobTex.java
 @|io\github\moulberry\SBCustomMobTex.java|8|27|io.github.moulberry|package|io.github.moulberry|(file)
 Class Start: io.github.moulberry.SBCustomMobTex
-   @|io\github\moulberry\SBCustomMobTex.java|1721|1727|String|class|java.lang.String
-   @|io\github\moulberry\SBCustomMobTex.java|1728|1733|MODID|field|io.github.moulberry.SBCustomMobTex|MODID|
-   @|io\github\moulberry\SBCustomMobTex.java|1778|1784|String|class|java.lang.String
-   @|io\github\moulberry\SBCustomMobTex.java|1785|1792|VERSION|field|io.github.moulberry.SBCustomMobTex|VERSION|
-   @|io\github\moulberry\SBCustomMobTex.java|1821|1835|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
-   @|io\github\moulberry\SBCustomMobTex.java|1836|1844|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE|
-   @|io\github\moulberry\SBCustomMobTex.java|1866|1882|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-   @|io\github\moulberry\SBCustomMobTex.java|1889|1895|String|class|java.lang.String
-   @|io\github\moulberry\SBCustomMobTex.java|1897|1904|Integer|class|java.lang.Integer
-   @|io\github\moulberry\SBCustomMobTex.java|1884|1888|Pair|class|org.apache.commons.lang3.tuple.Pair
-   @|io\github\moulberry\SBCustomMobTex.java|1858|1865|HashMap|class|java.util.HashMap
-   @|io\github\moulberry\SBCustomMobTex.java|1907|1914|permMap|field|io.github.moulberry.SBCustomMobTex|permMap|
-   @|io\github\moulberry\SBCustomMobTex.java|1921|1928|HashMap|class|java.util.HashMap
-   @|io\github\moulberry\SBCustomMobTex.java|1954|1966|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock|
-   @|io\github\moulberry\SBCustomMobTex.java|1996|2005|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode|
-   @|io\github\moulberry\SBCustomMobTex.java|2028|2034|String|class|java.lang.String
-   @|io\github\moulberry\SBCustomMobTex.java|2035|2050|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover|
-   @|io\github\moulberry\SBCustomMobTex.java|2155|2161|String|class|java.lang.String
-   @|io\github\moulberry\SBCustomMobTex.java|2151|2154|Set|class|java.util.Set
-   @|io\github\moulberry\SBCustomMobTex.java|2163|2188|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES|
-   @|io\github\moulberry\SBCustomMobTex.java|2191|2195|Sets|class|com.google.common.collect.Sets
-   @|io\github\moulberry\SBCustomMobTex.java|2196|2206|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
+   @|io\github\moulberry\SBCustomMobTex.java|2335|2341|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|2342|2347|MODID|field|io.github.moulberry.SBCustomMobTex|MODID|
+   @|io\github\moulberry\SBCustomMobTex.java|2392|2398|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|2399|2406|VERSION|field|io.github.moulberry.SBCustomMobTex|VERSION|
+   @|io\github\moulberry\SBCustomMobTex.java|2429|2433|Gson|class|com.google.gson.Gson
+   @|io\github\moulberry\SBCustomMobTex.java|2434|2438|gson|field|io.github.moulberry.SBCustomMobTex|gson|
+   @|io\github\moulberry\SBCustomMobTex.java|2445|2456|GsonBuilder|class|com.google.gson.GsonBuilder
+   @|io\github\moulberry\SBCustomMobTex.java|2459|2476|setPrettyPrinting|method|com.google.gson.GsonBuilder|setPrettyPrinting|()Lcom/google/gson/GsonBuilder;
+   @|io\github\moulberry\SBCustomMobTex.java|2479|2485|create|method|com.google.gson.GsonBuilder|create|()Lcom/google/gson/Gson;
+   @|io\github\moulberry\SBCustomMobTex.java|2501|2517|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|io\github\moulberry\SBCustomMobTex.java|2518|2531|CONFIGURATION|field|io.github.moulberry.SBCustomMobTex|CONFIGURATION|
+   @|io\github\moulberry\SBCustomMobTex.java|2538|2554|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|io\github\moulberry\SBCustomMobTex.java|2605|2611|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|2612|2626|customRegexStr|field|io.github.moulberry.SBCustomMobTex|customRegexStr|
+   @|io\github\moulberry\SBCustomMobTex.java|2654|2668|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+   @|io\github\moulberry\SBCustomMobTex.java|2669|2677|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE|
+   @|io\github\moulberry\SBCustomMobTex.java|2699|2715|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+   @|io\github\moulberry\SBCustomMobTex.java|2722|2728|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|2730|2737|Integer|class|java.lang.Integer
+   @|io\github\moulberry\SBCustomMobTex.java|2717|2721|Pair|class|org.apache.commons.lang3.tuple.Pair
+   @|io\github\moulberry\SBCustomMobTex.java|2691|2698|HashMap|class|java.util.HashMap
+   @|io\github\moulberry\SBCustomMobTex.java|2740|2747|permMap|field|io.github.moulberry.SBCustomMobTex|permMap|
+   @|io\github\moulberry\SBCustomMobTex.java|2754|2761|HashMap|class|java.util.HashMap
+   @|io\github\moulberry\SBCustomMobTex.java|2787|2799|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock|
+   @|io\github\moulberry\SBCustomMobTex.java|2829|2838|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode|
+   @|io\github\moulberry\SBCustomMobTex.java|2861|2867|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|2868|2883|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover|
+   @|io\github\moulberry\SBCustomMobTex.java|2901|2917|IBossDisplayData|class|net.minecraft.entity.boss.IBossDisplayData
+   @|io\github\moulberry\SBCustomMobTex.java|2918|2929|currentBoss|field|io.github.moulberry.SBCustomMobTex|currentBoss|
+   @|io\github\moulberry\SBCustomMobTex.java|3036|3042|String|class|java.lang.String
+   @|io\github\moulberry\SBCustomMobTex.java|3032|3035|Set|class|java.util.Set
+   @|io\github\moulberry\SBCustomMobTex.java|3044|3069|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES|
+   @|io\github\moulberry\SBCustomMobTex.java|3072|3076|Sets|class|com.google.common.collect.Sets
+   @|io\github\moulberry\SBCustomMobTex.java|3077|3087|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
    Method Start: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2282|2289|preinit|method|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2290|2315|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|io\github\moulberry\SBCustomMobTex.java|2316|2321|event|param|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|io\github\moulberry\SBCustomMobTex.java|2333|2347|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|io\github\moulberry\SBCustomMobTex.java|2348|2357|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|io\github\moulberry\SBCustomMobTex.java|2358|2366|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2382|2402|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
-      @|io\github\moulberry\SBCustomMobTex.java|2403|2411|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
-      @|io\github\moulberry\SBCustomMobTex.java|2412|2427|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
-      @|io\github\moulberry\SBCustomMobTex.java|2432|2454|SBCreatureDebugCommand|class|io.github.moulberry.SBCreatureDebugCommand
-      @|io\github\moulberry\SBCustomMobTex.java|2467|2475|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\SBCustomMobTex.java|3163|3170|preinit|method|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3171|3196|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|io\github\moulberry\SBCustomMobTex.java|3197|3202|event|param|io.github.moulberry.SBCustomMobTex|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|io\github\moulberry\SBCustomMobTex.java|3214|3228|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|io\github\moulberry\SBCustomMobTex.java|3229|3238|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|io\github\moulberry\SBCustomMobTex.java|3239|3247|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3263|3283|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|io\github\moulberry\SBCustomMobTex.java|3284|3292|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|io\github\moulberry\SBCustomMobTex.java|3293|3308|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|io\github\moulberry\SBCustomMobTex.java|3313|3335|SBCreatureDebugCommand|class|io.github.moulberry.SBCreatureDebugCommand
+      @|io\github\moulberry\SBCustomMobTex.java|3350|3381|SimpleReloadableResourceManager|class|net.minecraft.client.resources.SimpleReloadableResourceManager
+      @|io\github\moulberry\SBCustomMobTex.java|3382|3391|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|3392|3404|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|3407|3425|getResourceManager|method|net.minecraft.client.Minecraft|getResourceManager|()Lnet/minecraft/client/resources/IResourceManager;
+      @|io\github\moulberry\SBCustomMobTex.java|3429|3451|registerReloadListener|method|net.minecraft.client.resources.IReloadableResourceManager|registerReloadListener|(Lnet/minecraft/client/resources/IResourceManagerReloadListener;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3467|3475|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
    Method End: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: tick(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2527|2531|tick|method|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2532|2541|TickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent
-      @|io\github\moulberry\SBCustomMobTex.java|2542|2547|event|param|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V|event|0
-      @|io\github\moulberry\SBCustomMobTex.java|2559|2565|System|class|java.lang.System
-      @|io\github\moulberry\SBCustomMobTex.java|2566|2569|out|field|java.lang.System|out
-      @|io\github\moulberry\SBCustomMobTex.java|2570|2577|println|method|java.io.PrintStream|println|(I)V
-      @|io\github\moulberry\SBCustomMobTex.java|2578|2585|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|2586|2590|size|method|java.util.Map|size|()I
-      @|io\github\moulberry\SBCustomMobTex.java|2603|2621|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
-      @|io\github\moulberry\SBCustomMobTex.java|2633|2641|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
+      @|io\github\moulberry\SBCustomMobTex.java|3527|3531|tick|method|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3532|3541|TickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent
+      @|io\github\moulberry\SBCustomMobTex.java|3542|3547|event|param|io.github.moulberry.SBCustomMobTex|tick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V|event|0
+      @|io\github\moulberry\SBCustomMobTex.java|3559|3577|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
+      @|io\github\moulberry\SBCustomMobTex.java|3589|3597|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
    Method End: tick(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+   Method Start: onResourceManagerReload(Lnet/minecraft/client/resources/IResourceManager;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3638|3661|onResourceManagerReload|method|net.minecraft.client.resources.IResourceManagerReloadListener|onResourceManagerReload|(Lnet/minecraft/client/resources/IResourceManager;)V
+      @|io\github\moulberry\SBCustomMobTex.java|3662|3678|IResourceManager|class|net.minecraft.client.resources.IResourceManager
+      @|io\github\moulberry\SBCustomMobTex.java|3679|3694|resourceManager|param|io.github.moulberry.SBCustomMobTex|onResourceManagerReload|(Lnet/minecraft/client/resources/IResourceManager;)V|resourceManager|0
+      @|io\github\moulberry\SBCustomMobTex.java|3724|3735|InputStream|class|java.io.InputStream
+      @|io\github\moulberry\SBCustomMobTex.java|3741|3756|resourceManager|param|io.github.moulberry.SBCustomMobTex|onResourceManagerReload|(Lnet/minecraft/client/resources/IResourceManager;)V|resourceManager|0
+      @|io\github\moulberry\SBCustomMobTex.java|3757|3768|getResource|method|net.minecraft.client.resources.IResourceManager|getResource|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/resources/IResource;
+      @|io\github\moulberry\SBCustomMobTex.java|3769|3782|CONFIGURATION|field|io.github.moulberry.SBCustomMobTex|CONFIGURATION
+      @|io\github\moulberry\SBCustomMobTex.java|3784|3798|getInputStream|method|net.minecraft.client.resources.IResource|getInputStream|()Ljava/io/InputStream;
+      @|io\github\moulberry\SBCustomMobTex.java|3814|3828|BufferedReader|class|java.io.BufferedReader
+      @|io\github\moulberry\SBCustomMobTex.java|3842|3856|BufferedReader|class|java.io.BufferedReader
+      @|io\github\moulberry\SBCustomMobTex.java|3861|3878|InputStreamReader|class|java.io.InputStreamReader
+      @|io\github\moulberry\SBCustomMobTex.java|3883|3899|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|io\github\moulberry\SBCustomMobTex.java|3900|3905|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|io\github\moulberry\SBCustomMobTex.java|3921|3931|JsonObject|class|com.google.gson.JsonObject
+      @|io\github\moulberry\SBCustomMobTex.java|3939|3943|gson|field|io.github.moulberry.SBCustomMobTex|gson
+      @|io\github\moulberry\SBCustomMobTex.java|3944|3952|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|3961|3971|JsonObject|class|com.google.gson.JsonObject
+      @|io\github\moulberry\SBCustomMobTex.java|3992|4006|customRegexStr|field|io.github.moulberry.SBCustomMobTex|customRegexStr
+      @|io\github\moulberry\SBCustomMobTex.java|4014|4017|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|io\github\moulberry\SBCustomMobTex.java|4034|4045|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|4065|4074|Exception|class|java.lang.Exception
+      @|io\github\moulberry\SBCustomMobTex.java|4092|4106|customRegexStr|field|io.github.moulberry.SBCustomMobTex|customRegexStr
+   Method End: onResourceManagerReload(Lnet/minecraft/client/resources/IResourceManager;)V
    Method Start: render(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2688|2694|render|method|io.github.moulberry.SBCustomMobTex|render|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V
-      @|io\github\moulberry\SBCustomMobTex.java|2695|2720|TickEvent.RenderTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.RenderTickEvent
-      @|io\github\moulberry\SBCustomMobTex.java|2721|2726|event|param|io.github.moulberry.SBCustomMobTex|render|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V|event|0
-      @|io\github\moulberry\SBCustomMobTex.java|2741|2755|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|2761|2773|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|2794|2803|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|2804|2816|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|2819|2834|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
-      @|io\github\moulberry\SBCustomMobTex.java|2846|2855|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|2856|2868|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|2871|2886|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
-      @|io\github\moulberry\SBCustomMobTex.java|2887|2896|entityHit|field|net.minecraft.util.MovingObjectPosition|entityHit
-      @|io\github\moulberry\SBCustomMobTex.java|2924|2930|Entity|class|net.minecraft.entity.Entity
-      @|io\github\moulberry\SBCustomMobTex.java|2937|2946|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|2947|2959|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|2962|2977|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
-      @|io\github\moulberry\SBCustomMobTex.java|2978|2987|entityHit|field|net.minecraft.util.MovingObjectPosition|entityHit
-      @|io\github\moulberry\SBCustomMobTex.java|3009|3022|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|3035|3048|hasCustomName|method|net.minecraft.entity.Entity|hasCustomName|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|3074|3089|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover
-      @|io\github\moulberry\SBCustomMobTex.java|3096|3104|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
-      @|io\github\moulberry\SBCustomMobTex.java|3107|3120|getSimpleName|method|java.lang.Class|getSimpleName|()Ljava/lang/String;
-      @|io\github\moulberry\SBCustomMobTex.java|3147|3154|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|io\github\moulberry\SBCustomMobTex.java|3203|3212|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|3213|3225|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|3228|3243|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
-      @|io\github\moulberry\SBCustomMobTex.java|3244|3264|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
-      @|io\github\moulberry\SBCustomMobTex.java|3265|3280|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover
-      @|io\github\moulberry\SBCustomMobTex.java|3288|3293|Color|class|java.awt.Color
-      @|io\github\moulberry\SBCustomMobTex.java|3294|3299|WHITE|field|java.awt.Color|WHITE
-      @|io\github\moulberry\SBCustomMobTex.java|3300|3306|getRGB|method|java.awt.Color|getRGB|()I
+      @|io\github\moulberry\SBCustomMobTex.java|4168|4174|render|method|io.github.moulberry.SBCustomMobTex|render|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V
+      @|io\github\moulberry\SBCustomMobTex.java|4175|4200|TickEvent.RenderTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.RenderTickEvent
+      @|io\github\moulberry\SBCustomMobTex.java|4201|4206|event|param|io.github.moulberry.SBCustomMobTex|render|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V|event|0
+      @|io\github\moulberry\SBCustomMobTex.java|4221|4235|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|4241|4253|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|4274|4283|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|4284|4296|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|4299|4314|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
+      @|io\github\moulberry\SBCustomMobTex.java|4326|4335|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|4336|4348|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|4351|4366|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
+      @|io\github\moulberry\SBCustomMobTex.java|4367|4376|entityHit|field|net.minecraft.util.MovingObjectPosition|entityHit
+      @|io\github\moulberry\SBCustomMobTex.java|4404|4410|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\SBCustomMobTex.java|4417|4426|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|4427|4439|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|4442|4457|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
+      @|io\github\moulberry\SBCustomMobTex.java|4458|4467|entityHit|field|net.minecraft.util.MovingObjectPosition|entityHit
+      @|io\github\moulberry\SBCustomMobTex.java|4489|4502|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|4515|4528|hasCustomName|method|net.minecraft.entity.Entity|hasCustomName|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|4554|4569|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover
+      @|io\github\moulberry\SBCustomMobTex.java|4576|4584|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|io\github\moulberry\SBCustomMobTex.java|4587|4600|getSimpleName|method|java.lang.Class|getSimpleName|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|4627|4634|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|4683|4692|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|4693|4705|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|4708|4723|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|io\github\moulberry\SBCustomMobTex.java|4724|4744|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|io\github\moulberry\SBCustomMobTex.java|4745|4760|lastCustomHover|field|io.github.moulberry.SBCustomMobTex|lastCustomHover
+      @|io\github\moulberry\SBCustomMobTex.java|4768|4773|Color|class|java.awt.Color
+      @|io\github\moulberry\SBCustomMobTex.java|4774|4779|WHITE|field|java.awt.Color|WHITE
+      @|io\github\moulberry\SBCustomMobTex.java|4780|4786|getRGB|method|java.awt.Color|getRGB|()I
    Method End: render(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V
    Method Start: toggleDebugMode()V
-      @|io\github\moulberry\SBCustomMobTex.java|3344|3359|toggleDebugMode|method|io.github.moulberry.SBCustomMobTex|toggleDebugMode|()V
-      @|io\github\moulberry\SBCustomMobTex.java|3372|3381|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
-      @|io\github\moulberry\SBCustomMobTex.java|3385|3394|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
+      @|io\github\moulberry\SBCustomMobTex.java|4824|4839|toggleDebugMode|method|io.github.moulberry.SBCustomMobTex|toggleDebugMode|()V
+      @|io\github\moulberry\SBCustomMobTex.java|4852|4861|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
+      @|io\github\moulberry\SBCustomMobTex.java|4865|4874|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
    Method End: toggleDebugMode()V
    Method Start: cleanMap()V
-      @|io\github\moulberry\SBCustomMobTex.java|3419|3427|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
-      @|io\github\moulberry\SBCustomMobTex.java|3440|3445|World|class|net.minecraft.world.World
-      @|io\github\moulberry\SBCustomMobTex.java|3450|3459|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|3460|3472|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|3475|3483|theWorld|field|net.minecraft.client.Minecraft|theWorld
-      @|io\github\moulberry\SBCustomMobTex.java|3521|3524|Set|class|java.util.Set
-      @|io\github\moulberry\SBCustomMobTex.java|3525|3541|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\SBCustomMobTex.java|3558|3565|HashSet|class|java.util.HashSet
-      @|io\github\moulberry\SBCustomMobTex.java|3587|3603|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\SBCustomMobTex.java|3610|3617|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|3618|3624|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
-      @|io\github\moulberry\SBCustomMobTex.java|3652|3668|loadedEntityList|field|net.minecraft.world.World|loadedEntityList
-      @|io\github\moulberry\SBCustomMobTex.java|3669|3677|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|3715|3718|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|3773|3789|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\SBCustomMobTex.java|3824|3831|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|3832|3838|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|4899|4907|cleanMap|method|io.github.moulberry.SBCustomMobTex|cleanMap|()V
+      @|io\github\moulberry\SBCustomMobTex.java|4920|4925|World|class|net.minecraft.world.World
+      @|io\github\moulberry\SBCustomMobTex.java|4930|4939|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|4940|4952|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|4955|4963|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|5001|5004|Set|class|java.util.Set
+      @|io\github\moulberry\SBCustomMobTex.java|5005|5021|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|5038|5045|HashSet|class|java.util.HashSet
+      @|io\github\moulberry\SBCustomMobTex.java|5067|5083|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|5090|5097|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|5098|5104|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|io\github\moulberry\SBCustomMobTex.java|5132|5148|loadedEntityList|field|net.minecraft.world.World|loadedEntityList
+      @|io\github\moulberry\SBCustomMobTex.java|5149|5157|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|5195|5198|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|5253|5269|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|5304|5311|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|5312|5318|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
    Method End: cleanMap()V
    Method Start: getPermPair(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
-      @|io\github\moulberry\SBCustomMobTex.java|3909|3920|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
-      @|io\github\moulberry\SBCustomMobTex.java|3892|3898|String|class|java.lang.String
-      @|io\github\moulberry\SBCustomMobTex.java|3900|3907|Integer|class|java.lang.Integer
-      @|io\github\moulberry\SBCustomMobTex.java|3887|3891|Pair|class|org.apache.commons.lang3.tuple.Pair
-      @|io\github\moulberry\SBCustomMobTex.java|3921|3937|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\SBCustomMobTex.java|3938|3941|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
-      @|io\github\moulberry\SBCustomMobTex.java|3953|3957|Pair|class|org.apache.commons.lang3.tuple.Pair
-      @|io\github\moulberry\SBCustomMobTex.java|3958|3964|String|class|java.lang.String
-      @|io\github\moulberry\SBCustomMobTex.java|3966|3973|Integer|class|java.lang.Integer
-      @|io\github\moulberry\SBCustomMobTex.java|3982|3989|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|3990|3993|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\moulberry\SBCustomMobTex.java|3994|3997|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
-      @|io\github\moulberry\SBCustomMobTex.java|4050|4061|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
-      @|io\github\moulberry\SBCustomMobTex.java|4086|4093|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|4094|4097|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\moulberry\SBCustomMobTex.java|4098|4101|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|5389|5400|getPermPair|method|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
+      @|io\github\moulberry\SBCustomMobTex.java|5372|5378|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|5380|5387|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|5367|5371|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|5401|5417|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|5418|5421|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|5433|5437|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|5438|5444|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|5446|5453|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|5462|5469|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|5470|5473|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|5474|5477|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|5530|5541|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
+      @|io\github\moulberry\SBCustomMobTex.java|5566|5573|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|5574|5577|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|5578|5581|key|param|io.github.moulberry.SBCustomMobTex|getPermPair|(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;|key|0
    Method End: getPermPair(Lnet/minecraft/entity/EntityLivingBase;)Lorg/apache/commons/lang3/tuple/Pair;
    Method Start: setPermPair(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
-      @|io\github\moulberry\SBCustomMobTex.java|4164|4175|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
-      @|io\github\moulberry\SBCustomMobTex.java|4176|4192|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\SBCustomMobTex.java|4193|4196|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
-      @|io\github\moulberry\SBCustomMobTex.java|4203|4209|String|class|java.lang.String
-      @|io\github\moulberry\SBCustomMobTex.java|4211|4218|Integer|class|java.lang.Integer
-      @|io\github\moulberry\SBCustomMobTex.java|4198|4202|Pair|class|org.apache.commons.lang3.tuple.Pair
-      @|io\github\moulberry\SBCustomMobTex.java|4220|4224|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
-      @|io\github\moulberry\SBCustomMobTex.java|4236|4243|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
-      @|io\github\moulberry\SBCustomMobTex.java|4244|4247|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\moulberry\SBCustomMobTex.java|4248|4251|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
-      @|io\github\moulberry\SBCustomMobTex.java|4253|4257|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
+      @|io\github\moulberry\SBCustomMobTex.java|5644|5655|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+      @|io\github\moulberry\SBCustomMobTex.java|5656|5672|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|5673|5676|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|5683|5689|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|5691|5698|Integer|class|java.lang.Integer
+      @|io\github\moulberry\SBCustomMobTex.java|5678|5682|Pair|class|org.apache.commons.lang3.tuple.Pair
+      @|io\github\moulberry\SBCustomMobTex.java|5700|5704|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
+      @|io\github\moulberry\SBCustomMobTex.java|5716|5723|permMap|field|io.github.moulberry.SBCustomMobTex|permMap
+      @|io\github\moulberry\SBCustomMobTex.java|5724|5727|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\SBCustomMobTex.java|5728|5731|key|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|key|0
+      @|io\github\moulberry\SBCustomMobTex.java|5733|5737|pair|param|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V|pair|1
    Method End: setPermPair(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
    Method Start: isOnSkyblock()Z
-      @|io\github\moulberry\SBCustomMobTex.java|4286|4298|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|4318|4330|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+      @|io\github\moulberry\SBCustomMobTex.java|5766|5778|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|5798|5810|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+      @|io\github\moulberry\SBCustomMobTex.java|5814|5823|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
    Method End: isOnSkyblock()Z
    Method Start: isDebugEnabled()Z
-      @|io\github\moulberry\SBCustomMobTex.java|4358|4372|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|4392|4401|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
+      @|io\github\moulberry\SBCustomMobTex.java|5851|5865|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|5885|5894|debugMode|field|io.github.moulberry.SBCustomMobTex|debugMode
    Method End: isDebugEnabled()Z
    Method Start: updateIsOnSkyblock()V
-      @|io\github\moulberry\SBCustomMobTex.java|4469|4487|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
-      @|io\github\moulberry\SBCustomMobTex.java|4500|4509|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|4515|4524|Minecraft|class|net.minecraft.client.Minecraft
-      @|io\github\moulberry\SBCustomMobTex.java|4525|4537|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|io\github\moulberry\SBCustomMobTex.java|4571|4579|theWorld|field|net.minecraft.client.Minecraft|theWorld
-      @|io\github\moulberry\SBCustomMobTex.java|4603|4613|Scoreboard|class|net.minecraft.scoreboard.Scoreboard
-      @|io\github\moulberry\SBCustomMobTex.java|4630|4638|theWorld|field|net.minecraft.client.Minecraft|theWorld
-      @|io\github\moulberry\SBCustomMobTex.java|4639|4652|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
-      @|io\github\moulberry\SBCustomMobTex.java|4668|4682|ScoreObjective|class|net.minecraft.scoreboard.ScoreObjective
-      @|io\github\moulberry\SBCustomMobTex.java|4713|4738|getObjectiveInDisplaySlot|method|net.minecraft.scoreboard.Scoreboard|getObjectiveInDisplaySlot|(I)Lnet/minecraft/scoreboard/ScoreObjective;
-      @|io\github\moulberry\SBCustomMobTex.java|4803|4809|String|class|java.lang.String
-      @|io\github\moulberry\SBCustomMobTex.java|4843|4857|getDisplayName|method|net.minecraft.scoreboard.ScoreObjective|getDisplayName|()Ljava/lang/String;
-      @|io\github\moulberry\SBCustomMobTex.java|4860|4870|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|io\github\moulberry\SBCustomMobTex.java|4913|4919|String|class|java.lang.String
-      @|io\github\moulberry\SBCustomMobTex.java|4931|4956|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES
-      @|io\github\moulberry\SBCustomMobTex.java|4998|5008|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|5046|5058|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
-      @|io\github\moulberry\SBCustomMobTex.java|5172|5184|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+      @|io\github\moulberry\SBCustomMobTex.java|5962|5980|updateIsOnSkyblock|method|io.github.moulberry.SBCustomMobTex|updateIsOnSkyblock|()V
+      @|io\github\moulberry\SBCustomMobTex.java|5993|6002|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|6008|6017|Minecraft|class|net.minecraft.client.Minecraft
+      @|io\github\moulberry\SBCustomMobTex.java|6018|6030|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|io\github\moulberry\SBCustomMobTex.java|6064|6072|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|6096|6106|Scoreboard|class|net.minecraft.scoreboard.Scoreboard
+      @|io\github\moulberry\SBCustomMobTex.java|6123|6131|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|io\github\moulberry\SBCustomMobTex.java|6132|6145|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
+      @|io\github\moulberry\SBCustomMobTex.java|6161|6175|ScoreObjective|class|net.minecraft.scoreboard.ScoreObjective
+      @|io\github\moulberry\SBCustomMobTex.java|6206|6231|getObjectiveInDisplaySlot|method|net.minecraft.scoreboard.Scoreboard|getObjectiveInDisplaySlot|(I)Lnet/minecraft/scoreboard/ScoreObjective;
+      @|io\github\moulberry\SBCustomMobTex.java|6296|6302|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|6336|6350|getDisplayName|method|net.minecraft.scoreboard.ScoreObjective|getDisplayName|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|6353|6363|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|6406|6412|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|6424|6449|SKYBLOCK_IN_ALL_LANGUAGES|field|io.github.moulberry.SBCustomMobTex|SKYBLOCK_IN_ALL_LANGUAGES
+      @|io\github\moulberry\SBCustomMobTex.java|6491|6501|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|6539|6551|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
+      @|io\github\moulberry\SBCustomMobTex.java|6665|6677|isOnSkyblock|field|io.github.moulberry.SBCustomMobTex|isOnSkyblock
    Method End: updateIsOnSkyblock()V
+   Method Start: getCustomRegex()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|6712|6726|getCustomRegex|method|io.github.moulberry.SBCustomMobTex|getCustomRegex|()Ljava/lang/String;
+      @|io\github\moulberry\SBCustomMobTex.java|6705|6711|String|class|java.lang.String
+      @|io\github\moulberry\SBCustomMobTex.java|6746|6760|customRegexStr|field|io.github.moulberry.SBCustomMobTex|customRegexStr
+   Method End: getCustomRegex()Ljava/lang/String;
    Method Start: shouldReplace(Lnet/minecraft/entity/Entity;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|5220|5233|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
-      @|io\github\moulberry\SBCustomMobTex.java|5234|5240|Entity|class|net.minecraft.entity.Entity
-      @|io\github\moulberry\SBCustomMobTex.java|5241|5247|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
-      @|io\github\moulberry\SBCustomMobTex.java|5263|5275|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
-      @|io\github\moulberry\SBCustomMobTex.java|5304|5310|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
-      @|io\github\moulberry\SBCustomMobTex.java|5322|5338|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
-      @|io\github\moulberry\SBCustomMobTex.java|5365|5371|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
-      @|io\github\moulberry\SBCustomMobTex.java|5383|5395|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|io\github\moulberry\SBCustomMobTex.java|5427|5433|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
-      @|io\github\moulberry\SBCustomMobTex.java|5445|5461|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\SBCustomMobTex.java|6788|6801|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
+      @|io\github\moulberry\SBCustomMobTex.java|6802|6808|Entity|class|net.minecraft.entity.Entity
+      @|io\github\moulberry\SBCustomMobTex.java|6809|6815|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
+      @|io\github\moulberry\SBCustomMobTex.java|6831|6843|isOnSkyblock|method|io.github.moulberry.SBCustomMobTex|isOnSkyblock|()Z
+      @|io\github\moulberry\SBCustomMobTex.java|6872|6878|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
+      @|io\github\moulberry\SBCustomMobTex.java|6890|6906|EntityArmorStand|class|net.minecraft.entity.item.EntityArmorStand
+      @|io\github\moulberry\SBCustomMobTex.java|6933|6939|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
+      @|io\github\moulberry\SBCustomMobTex.java|6951|6963|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|io\github\moulberry\SBCustomMobTex.java|6990|6996|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
+      @|io\github\moulberry\SBCustomMobTex.java|7000|7011|currentBoss|field|io.github.moulberry.SBCustomMobTex|currentBoss
+      @|io\github\moulberry\SBCustomMobTex.java|7043|7049|entity|param|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z|entity|0
+      @|io\github\moulberry\SBCustomMobTex.java|7061|7077|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
    Method End: shouldReplace(Lnet/minecraft/entity/Entity;)Z
 Class End  : io.github.moulberry.SBCustomMobTex
 endProcessing io\github\moulberry\SBCustomMobTex.java
+
+processing io\github\moulberry\mixins\MixinBossStatus.java
+@|io\github\moulberry\mixins\MixinBossStatus.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
+Class Start: io.github.moulberry.mixins.MixinBossStatus
+   Method Start: setBossStatus(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+      @|io\github\moulberry\mixins\MixinBossStatus.java|525|538|setBossStatus|method|io.github.moulberry.mixins.MixinBossStatus|setBossStatus|(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+      @|io\github\moulberry\mixins\MixinBossStatus.java|539|555|IBossDisplayData|class|net.minecraft.entity.boss.IBossDisplayData
+      @|io\github\moulberry\mixins\MixinBossStatus.java|556|567|displayData|param|io.github.moulberry.mixins.MixinBossStatus|setBossStatus|(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|displayData|0
+      @|io\github\moulberry\mixins\MixinBossStatus.java|577|595|hasColorModifierIn|param|io.github.moulberry.mixins.MixinBossStatus|setBossStatus|(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|hasColorModifierIn|1
+      @|io\github\moulberry\mixins\MixinBossStatus.java|597|609|CallbackInfo|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfo
+      @|io\github\moulberry\mixins\MixinBossStatus.java|610|612|ci|param|io.github.moulberry.mixins.MixinBossStatus|setBossStatus|(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|ci|2
+      @|io\github\moulberry\mixins\MixinBossStatus.java|624|638|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinBossStatus.java|639|647|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinBossStatus.java|648|659|currentBoss|field|io.github.moulberry.SBCustomMobTex|currentBoss
+      @|io\github\moulberry\mixins\MixinBossStatus.java|662|673|displayData|param|io.github.moulberry.mixins.MixinBossStatus|setBossStatus|(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V|displayData|0
+   Method End: setBossStatus(Lnet/minecraft/entity/boss/IBossDisplayData;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+Class End  : io.github.moulberry.mixins.MixinBossStatus
+endProcessing io\github\moulberry\mixins\MixinBossStatus.java
 
 processing io\github\moulberry\mixins\MixinEntity.java
 @|io\github\moulberry\mixins\MixinEntity.java|8|34|io.github.moulberry.mixins|package|io.github.moulberry.mixins|(file)
@@ -278,64 +340,72 @@ Class Start: io.github.moulberry.mixins.MixinEntity
       @|io\github\moulberry\mixins\MixinEntity.java|2262|2265|abs|method|java.lang.Math|abs|(I)I
       @|io\github\moulberry\mixins\MixinEntity.java|2272|2284|ticksExisted|field|net.minecraft.entity.Entity|ticksExisted
       @|io\github\moulberry\mixins\MixinEntity.java|2287|2299|ticksExisted|field|io.github.moulberry.mixins.MixinEntity|ticksExisted
-      @|io\github\moulberry\mixins\MixinEntity.java|2367|2378|isInvisible|method|net.minecraft.entity.Entity|isInvisible|()Z
-      @|io\github\moulberry\mixins\MixinEntity.java|2390|2403|func_181026_s|method|net.minecraft.entity.item.EntityArmorStand|func_181026_s|()Z
-      @|io\github\moulberry\mixins\MixinEntity.java|2416|2429|hasCustomName|method|net.minecraft.entity.Entity|hasCustomName|()Z
-      @|io\github\moulberry\mixins\MixinEntity.java|2479|2485|distSq|method|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D
-      @|io\github\moulberry\mixins\MixinEntity.java|2486|2490|posX|field|io.github.moulberry.mixins.MixinEntity|posX
-      @|io\github\moulberry\mixins\MixinEntity.java|2492|2496|posY|field|io.github.moulberry.mixins.MixinEntity|posY
-      @|io\github\moulberry\mixins\MixinEntity.java|2498|2502|posZ|field|io.github.moulberry.mixins.MixinEntity|posZ
-      @|io\github\moulberry\mixins\MixinEntity.java|2510|2514|posX|field|net.minecraft.entity.Entity|posX
-      @|io\github\moulberry\mixins\MixinEntity.java|2522|2526|posY|field|net.minecraft.entity.Entity|posY
-      @|io\github\moulberry\mixins\MixinEntity.java|2534|2538|posZ|field|net.minecraft.entity.Entity|posZ
-      @|io\github\moulberry\mixins\MixinEntity.java|3538|3545|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
-      @|io\github\moulberry\mixins\MixinEntity.java|3559|3566|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|io\github\moulberry\mixins\MixinEntity.java|3604|3612|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
-      @|io\github\moulberry\mixins\MixinEntity.java|3663|3671|setValue|method|java.util.Map.Entry|setValue|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\moulberry\mixins\MixinEntity.java|3677|3685|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
-      @|io\github\moulberry\mixins\MixinEntity.java|3782|3793|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
-      @|io\github\moulberry\mixins\MixinEntity.java|3804|3811|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|io\github\moulberry\mixins\MixinEntity.java|3843|3857|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
-      @|io\github\moulberry\mixins\MixinEntity.java|3858|3866|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
-      @|io\github\moulberry\mixins\MixinEntity.java|3867|3878|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|3880|3896|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
-      @|io\github\moulberry\mixins\MixinEntity.java|3898|3905|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
-      @|io\github\moulberry\mixins\MixinEntity.java|3975|3982|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|io\github\moulberry\mixins\MixinEntity.java|4067|4073|String|class|java.lang.String
-      @|io\github\moulberry\mixins\MixinEntity.java|4087|4097|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|io\github\moulberry\mixins\MixinEntity.java|4138|4141|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4142|4156|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
-      @|io\github\moulberry\mixins\MixinEntity.java|4190|4193|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4194|4208|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4267|4270|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4271|4285|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4286|4289|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4290|4304|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|2336|2347|isInvisible|method|net.minecraft.entity.Entity|isInvisible|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2359|2372|func_181026_s|method|net.minecraft.entity.item.EntityArmorStand|func_181026_s|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2385|2398|hasCustomName|method|net.minecraft.entity.Entity|hasCustomName|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2432|2438|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntity.java|2452|2459|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|2462|2472|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|2531|2538|matches|method|java.lang.String|matches|(Ljava/lang/String;)Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2667|2674|matches|method|java.lang.String|matches|(Ljava/lang/String;)Z
+      @|io\github\moulberry\mixins\MixinEntity.java|2675|2689|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|2690|2698|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|2699|2713|getCustomRegex|method|io.github.moulberry.SBCustomMobTex|getCustomRegex|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|2836|2842|distSq|method|io.github.moulberry.mixins.MixinEntity|distSq|(DDDDDD)D
+      @|io\github\moulberry\mixins\MixinEntity.java|2843|2847|posX|field|io.github.moulberry.mixins.MixinEntity|posX
+      @|io\github\moulberry\mixins\MixinEntity.java|2849|2853|posY|field|io.github.moulberry.mixins.MixinEntity|posY
+      @|io\github\moulberry\mixins\MixinEntity.java|2855|2859|posZ|field|io.github.moulberry.mixins.MixinEntity|posZ
+      @|io\github\moulberry\mixins\MixinEntity.java|2867|2871|posX|field|net.minecraft.entity.Entity|posX
+      @|io\github\moulberry\mixins\MixinEntity.java|2879|2883|posY|field|net.minecraft.entity.Entity|posY
+      @|io\github\moulberry\mixins\MixinEntity.java|2891|2895|posZ|field|net.minecraft.entity.Entity|posZ
+      @|io\github\moulberry\mixins\MixinEntity.java|3895|3902|getLeft|method|org.apache.commons.lang3.tuple.Pair|getLeft|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|3916|3923|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|3961|3969|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4020|4028|setValue|method|java.util.Map.Entry|setValue|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4034|4042|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4139|4150|MutablePair|class|org.apache.commons.lang3.tuple.MutablePair
+      @|io\github\moulberry\mixins\MixinEntity.java|4161|4168|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4200|4214|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|4215|4223|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|4224|4235|setPermPair|method|io.github.moulberry.SBCustomMobTex|setPermPair|(Lnet/minecraft/entity/EntityLivingBase;Lorg/apache/commons/lang3/tuple/Pair;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4237|4253|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|io\github\moulberry\mixins\MixinEntity.java|4255|4262|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|4332|4339|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4424|4430|String|class|java.lang.String
+      @|io\github\moulberry\mixins\MixinEntity.java|4444|4454|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\moulberry\mixins\MixinEntity.java|4495|4498|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4499|4513|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
+      @|io\github\moulberry\mixins\MixinEntity.java|4547|4550|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4551|4565|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4624|4627|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4628|4642|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4643|4646|cir|param|io.github.moulberry.mixins.MixinEntity|getCustomNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4647|4661|getReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|getReturnValue|()Ljava/lang/Object;
    Method End: getCustomNameTag(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
    Method Start: hasCustomName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4463|4476|hasCustomName|method|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4477|4499|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
-      @|io\github\moulberry\mixins\MixinEntity.java|4500|4503|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4518|4532|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
-      @|io\github\moulberry\mixins\MixinEntity.java|4533|4541|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
-      @|io\github\moulberry\mixins\MixinEntity.java|4542|4555|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
-      @|io\github\moulberry\mixins\MixinEntity.java|4556|4563|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
-      @|io\github\moulberry\mixins\MixinEntity.java|4582|4585|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4586|4600|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4820|4833|hasCustomName|method|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|4834|4856|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntity.java|4857|4860|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4875|4889|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|4890|4898|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|4899|4912|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
+      @|io\github\moulberry\mixins\MixinEntity.java|4913|4920|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|4939|4942|cir|param|io.github.moulberry.mixins.MixinEntity|hasCustomName|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|4943|4957|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
    Method End: hasCustomName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
    Method Start: getAlwaysRenderNameTag(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4726|4748|getAlwaysRenderNameTag|method|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-      @|io\github\moulberry\mixins\MixinEntity.java|4749|4771|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
-      @|io\github\moulberry\mixins\MixinEntity.java|4772|4775|cir|param|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4790|4804|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
-      @|io\github\moulberry\mixins\MixinEntity.java|4805|4813|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
-      @|io\github\moulberry\mixins\MixinEntity.java|4814|4827|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
-      @|io\github\moulberry\mixins\MixinEntity.java|4828|4835|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
-      @|io\github\moulberry\mixins\MixinEntity.java|4842|4856|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
-      @|io\github\moulberry\mixins\MixinEntity.java|4857|4865|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
-      @|io\github\moulberry\mixins\MixinEntity.java|4866|4880|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
-      @|io\github\moulberry\mixins\MixinEntity.java|4898|4901|cir|param|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
-      @|io\github\moulberry\mixins\MixinEntity.java|4902|4916|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|5083|5105|getAlwaysRenderNameTag|method|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+      @|io\github\moulberry\mixins\MixinEntity.java|5106|5128|CallbackInfoReturnable|class|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+      @|io\github\moulberry\mixins\MixinEntity.java|5129|5132|cir|param|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|5147|5161|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|5162|5170|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|5171|5184|shouldReplace|method|io.github.moulberry.SBCustomMobTex|shouldReplace|(Lnet/minecraft/entity/Entity;)Z
+      @|io\github\moulberry\mixins\MixinEntity.java|5185|5192|getThis|method|io.github.moulberry.mixins.MixinEntity|getThis|()Lnet/minecraft/entity/Entity;
+      @|io\github\moulberry\mixins\MixinEntity.java|5199|5213|SBCustomMobTex|class|io.github.moulberry.SBCustomMobTex
+      @|io\github\moulberry\mixins\MixinEntity.java|5214|5222|INSTANCE|field|io.github.moulberry.SBCustomMobTex|INSTANCE
+      @|io\github\moulberry\mixins\MixinEntity.java|5223|5237|isDebugEnabled|method|io.github.moulberry.SBCustomMobTex|isDebugEnabled|()Z
+      @|io\github\moulberry\mixins\MixinEntity.java|5255|5258|cir|param|io.github.moulberry.mixins.MixinEntity|getAlwaysRenderNameTag|(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V|cir|0
+      @|io\github\moulberry\mixins\MixinEntity.java|5259|5273|setReturnValue|method|org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable|setReturnValue|(Ljava/lang/Object;)V
    Method End: getAlwaysRenderNameTag(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
 Class End  : io.github.moulberry.mixins.MixinEntity
 endProcessing io\github\moulberry\mixins\MixinEntity.java

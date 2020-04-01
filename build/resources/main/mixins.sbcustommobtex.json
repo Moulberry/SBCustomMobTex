@@ -6,6 +6,7 @@
     "MixinEntity",
     "MixinRender",
     "MixinEntityLiving",
-    "MixinRandomEntities"
+    "MixinRandomEntities",
+    "MixinBossStatus"
   ]
 }

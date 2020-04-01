@@ -63,8 +63,15 @@ public abstract class MixinEntity {
                     if(entity instanceof EntityArmorStand) {
                         EntityArmorStand stand = (EntityArmorStand) entity;
 
-                        int delta = Math.abs(stand.ticksExisted - ticksExisted);// && delta >= 0 && delta <= 10
+                        int delta = Math.abs(stand.ticksExisted - ticksExisted);
                         if((stand.isInvisible() || stand.func_181026_s()) && stand.hasCustomName()) {
+                            String name = stand.getName().replaceAll("(?i)\\u00A7.", "");
+                            if(!name.matches(".*[a-zA-Z].*")) {
+                                continue;
+                            }
+                            if(!name.matches(SBCustomMobTex.INSTANCE.getCustomRegex())) {
+                                continue;
+                            }
                             double distSq = distSq(posX, posY, posZ, stand.posX, stand.posY, stand.posZ);
 
                             boolean update = false;

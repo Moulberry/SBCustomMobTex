@@ -5,6 +5,9 @@
       "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
       "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
     },
+    "io/github/moulberry/mixins/MixinBossStatus": {
+      "setBossStatus": "Lnet/minecraft/entity/boss/BossStatus;func_82824_a(Lnet/minecraft/entity/boss/IBossDisplayData;Z)V"
+    },
     "io/github/moulberry/mixins/MixinRender": {
       "renderLivingLabel": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
     },
@@ -21,6 +24,9 @@
         "hasCustomName": "Lpk;l_()Z",
         "getCustomNameTag": "Lpk;aM()Ljava/lang/String;"
       },
+      "io/github/moulberry/mixins/MixinBossStatus": {
+        "setBossStatus": "Lbfc;a(Luc;Z)V"
+      },
       "io/github/moulberry/mixins/MixinRender": {
         "renderLivingLabel": "Lbiv;a(Lpk;Ljava/lang/String;DDDI)V"
       },
@@ -35,6 +41,9 @@
         "getAlwaysRenderNameTag": "Lnet/minecraft/entity/Entity;func_174833_aM()Z",
         "hasCustomName": "Lnet/minecraft/entity/Entity;func_145818_k_()Z",
         "getCustomNameTag": "Lnet/minecraft/entity/Entity;func_95999_t()Ljava/lang/String;"
+      },
+      "io/github/moulberry/mixins/MixinBossStatus": {
+        "setBossStatus": "Lnet/minecraft/entity/boss/BossStatus;func_82824_a(Lnet/minecraft/entity/boss/IBossDisplayData;Z)V"
       },
       "io/github/moulberry/mixins/MixinRender": {
         "renderLivingLabel": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
