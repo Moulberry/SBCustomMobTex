@@ -1,5 +1,5 @@
 ## About the mod
-This mod aims to the problem where SkyBlock mobs cannot be retextured by OptiFine because they're not renamed, only their armor stands.
+This mod aims to the problem where SkyBlock mobs cannot be retextured by OptiFine because they're not renamed, only their armor stands. Mob armor and weapons are also renamed so that they can also be retextured. Mob renaming might not be 100% accurate.
 
 ## Usage
 This is a Forge mod. Simply download one of it's versions' .jars from [Releases](https://github.com/Moulberry/SBCustomMobTex/releases) and put it in your mods folder.
