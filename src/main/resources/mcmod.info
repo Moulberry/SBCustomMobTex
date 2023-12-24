@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "sbcustommobtex",
+  "name": "SBCustomMobTex",
+  "description": "Add custom textures to mobs in Hypixel Skyblock.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "url": "https://github.com/Moulberry/SBCustomMobTex",
+  "updateUrl": "https://github.com/Moulberry/SBCustomMobTex/releases",
+  "authorList": ["Moulberry", "TBlazeWarriorT"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
